@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#801a41">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./main.css">
+  <title>Some</title>
+</head>
+<body>
+  <div class="startForm">
+    <div class="startLetter">
+      <div class="contentLetter"></div>
+      <img class="myAI" src="" alt="">
+      <div class="sticker"></div>
+      <button class="recieve"><i class="fa-solid fa-gift"></i></button>
+    </div>
+  </div>
+
+  <div class="backgroundParty">
+    <img class="balloon1 balloon" src="./img/PNGkhothietke.net-02776.png" alt="">
+    <img class="balloon2 balloon" src="./img/PNGkhothietke.net-02776.png" alt="">
+    <img class="bannerParty" src="./img/makeupspa-kit-theme-happy-birthday-bunting-paper-banner-party-supply-261454.png" alt="">
+    <div class="letterForm">
+      <input type="checkbox" id="mess">
+      <div class="content">
+        <div class="mainContent"></div>
+        <div class="img1"><img class="img" src="" alt=""></div>
+        <div class="giftBoxWrap" title="Bấm để nhận thưởng">
+          <div class="giftBox"><i class="fa-solid fa-gift"></i></div>
+          <span class="giftBoxLabel">Bấm để nhận thưởng</span>
+        </div>
+      </div>
+      <label class="designBox" for="mess"></label>
+    </div>
+  </div>
+
+  <!-- Modal nhận thưởng (đặt ngoài để luôn phủ toàn màn hình, z-index cao) -->
+  <div class="rewardModalOverlay">
+    <div class="rewardModal">
+      <h3>Phần thưởng của bạn</h3>
+      <p>Bấm nút bên dưới để mở app tin nhắn — số <strong>0337105303</strong> và nội dung <strong>Nhận</strong> sẽ được điền sẵn, bạn chỉ cần gửi tin nhắn.</p>
+      <a href="sms:0337105303?body=Nh%E1%BA%ADn" class="btnReward" id="btnRewardLink">Nhận thưởng</a>
+      <button type="button" class="btnCloseModal" aria-label="Đóng"><i class="fa-solid fa-times"></i></button>
+      <p class="rewardStatus"></p>
+    </div>
+  </div>
+
+  <script src="./index.js"></script>
+</body>
+</html>
